@@ -35,7 +35,7 @@ public class NumberGuessingGame {
                     int points = (maxAttempts - attempts + 1) * 10;
                     totalScore += points;
 
-                    System.out.println("🎉 Correct! You guessed the number.");
+                    System.out.println("Correct! You guessed the number.");
                     System.out.println("Attempts used: " + attempts);
                     System.out.println("Points earned: " + points);
                     break;
@@ -47,7 +47,7 @@ public class NumberGuessingGame {
             }
 
             if (!guessedCorrectly) {
-                System.out.println("\n❌ You've used all attempts.");
+                System.out.println("\n You've used all attempts.");
                 System.out.println("The correct number was: " + numberToGuess);
             }
 
